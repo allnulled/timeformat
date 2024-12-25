@@ -1,5 +1,5 @@
 {
-  "name": "timeformat",
+  "name": "@allnulled/timeformat",
   "version": "1.0.0",
   "description": "Parser simple para fecha, hora, rango, duración y lista.",
   "main": "timeformat.js",
