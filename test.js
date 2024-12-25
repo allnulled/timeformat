@@ -3,7 +3,7 @@ require(__dirname + "/timeformat.js");
 const main = async function () {
   try {
     const out1 = Timeformat_parser.parse("1h 20min")
-    const out2 = Timeformat_parser.parse("1y 2m 5d 3h 2min 10s 15ms");
+    const out2 = Timeformat_parser.parse("1y 2mon 5d 3h 2min 10s 15ms");
     const out3 = Timeformat_parser.parse("1h, 2h, 3h");
     const out4 = Timeformat_parser.parse("2025/01/01+00:00:00.000");
     const out5 = Timeformat_parser.parse("2025/01/01+00:00:00.000-2025/01/01+00:00:01.000");

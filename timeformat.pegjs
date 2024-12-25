@@ -73,7 +73,7 @@ ParteDuracion
 
 Unidad
   = "y" { return "anios"; }
-  / "m" (!("s"/"in")) { return "meses"; }
+  / "mon" { return "meses"; }
   / "d" { return "dias"; }
   / "h" { return "horas"; }
   / "min" { return "minutos"; }

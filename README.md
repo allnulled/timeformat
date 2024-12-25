@@ -32,7 +32,7 @@ const time = Timeformat_parser.parse("1h 5min 30s");
 
 Permite:
 
-  - duración: `0y 0m 0d 0h 0min 0s 0ms`
+  - duración: `0y 0mon 0d 0h 0min 0s 0ms`
   - fecha: `2025/01/01`
   - hora: `00:00:00.000`, `00:00:00`, `00:00`
   - fecha y hora: `2025/01/01+00:00:00.000`
@@ -43,7 +43,7 @@ Un ejemplo de cada:
 
 ```js
 const out1 = Timeformat_parser.parse("1h 20min");
-const out2 = Timeformat_parser.parse("1y 2m 5d 3h 2min 10s 15ms");
+const out2 = Timeformat_parser.parse("1y 2mon 5d 3h 2min 10s 15ms");
 const out3 = Timeformat_parser.parse("1h, 2h, 3h");
 const out4 = Timeformat_parser.parse("2025/01/01+00:00:00.000");
 const out5 = Timeformat_parser.parse("2025/01/01+00:00:00.000-2025/01/01+00:00:01.000");

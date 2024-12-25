@@ -4,7 +4,8 @@
   "description": "Parser simple para fecha, hora, rango, duración y lista.",
   "main": "timeformat.js",
   "scripts": {
-    "build": "npx pegjs --format globals --export-var Timeformat_parser -o timeformat.js timeformat.pegjs && node fix1.js && node test.js",
+    "up": "npm run build && bash up.sh",
+    "build": "npx pegjs --format globals --export-var Timeformat_parser -o timeformat.js timeformat.pegjs && node fix1.js && npm run test",
     "test": "node test.js"
   },
   "keywords": ["time", "parser", "format"],
